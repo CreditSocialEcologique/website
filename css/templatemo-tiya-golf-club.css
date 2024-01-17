@@ -643,7 +643,19 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/anna-rosar-ZxFyVBHMK-c-unsplash.jpg');
+  /*
+  1: ok
+  2: non
+  3: non
+  4: ok
+  5: nice
+  6: bof
+  7: bof
+  8: non
+  9: bizarre
+  10: nice
+  */
+  background-image: url('../images/test10.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
