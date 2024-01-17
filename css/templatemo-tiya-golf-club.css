@@ -690,6 +690,7 @@ strong {
 
 .hero-section > svg {
   top: 0;
+  fill: #263123
 }
 
 .hero-section .container + svg {
