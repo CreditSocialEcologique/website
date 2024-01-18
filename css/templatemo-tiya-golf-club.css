@@ -821,11 +821,6 @@ strong {
   background: var(--white-color);
 }
 
-.smartphone-screen {
-  width: 90%;
-  /* margin-left: 20%; */
-}
-
 .custom-block-date-wrap {
   background-color: var(--primary-color);
   border-radius: var(--border-radius-medium);
