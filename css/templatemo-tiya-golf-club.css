@@ -810,6 +810,18 @@ strong {
 /*---------------------------------------
   CUSTOM BLOCK              
 -----------------------------------------*/
+
+.student-project-info-item {
+  background: #EE7676;
+  border-radius: var(--border-radius-medium);
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .custom-block {
   border-radius: var(--border-radius-medium);
   position: relative;
