@@ -102,7 +102,7 @@
                             <div class="custom-block-info">
                                 <h3 class="mb-3">Front-end</h3>
 
-                                <p>Techno : Next.js (framework open source basé sur React)</p>
+                                <p>Technologie : Next.js (framework open source basé sur React)</p>
                                 <!--
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum reiciendis animi facere facilis 
                                     odio ipsum consectetur natus minus sequi deserunt tenetur labore, soluta repudiandae eligendi molestiae consequuntur dolor! 
@@ -209,7 +209,7 @@
 
                             <div class="custom-block-info">
                                 <h3 class="mb-3">Se connecter à la page utilisateur</h3>
-                                <p>
+                                <p style="text-align: justify;">
                                     Chaque utilisateur de l'application possède sa propre page sur laquelle est récapitulé : 
                                     <ul>
                                         <li>son CSE et son score dans chacune des catégories</li>
@@ -217,13 +217,13 @@
                                         <li>son profil détaillé</li>    
                                     </ul>
                                 </p>
-                                <p>
+                                <p style="text-align: justify;">
                                     Un utilisateur peut se connecter à sa page dédiée via l'adresse : <a href="http://intensif05.ecole.ensicaen.fr:8180/client/login">http://intensif05.ecole.ensicaen.fr:8180/client/login</a>.
                                 </p>
                                 <p>
                                     Pour se connecter : entrez le nom et le prénom (<strong>sensible à la casse</strong>) d'un utilisateur et vous serez connecté à sa page personnelle.
                                 </p>
-                                <p>
+                                <p style="text-align: justify;">
                                     Si vous souhaitez vous connecter mais que vous ne connaissez pas le nom d'un des utilisateurs de la base de données, vous pouvez 
                                     vous connecter au profil de l'utilisateur par défaut "Roche Etienne". Sinon, vous pouvez récupérer le .json représentant les 
                                     données de la base de données au endpoint : <a href="http://intensif05.ecole.ensicaen.fr:8080/api/users">http://intensif05.ecole.ensicaen.fr:8080/api/users</a>.
@@ -231,7 +231,7 @@
                             </div>
                             <div class="custom-block-info">
                                 <h3 class="mb-3">Se connecter à la page admin</h3>
-                                <p>
+                                <p style="text-align: justify;">
                                     Les admins de l'application ont accès à tous les profils des utilisateurs et à des informations personnelles sur ceux-ci.
                                     Pour se connecter au panel admin, se rendre à l'adresse suivante : <a href="http://intensif05.ecole.ensicaen.fr:8180/">http://intensif05.ecole.ensicaen.fr:8180/</a>
                                 </p>
@@ -252,11 +252,11 @@
                                     <div class="col-lg-12 col-12">
                                         <h4 class="mb-3">Détecteur de son</h4>
                                     </div>
-                                    <p>
+                                    <p style="text-align: justify;">
                                         L'arduino envoie 0 ou 1 toutes les secondes. Cela permet de savoir si on a dépassé le seuil de 
                                         nuisance sonore (reglé avec le potentiomètre).
                                     </p>
-                                    <p> 
+                                    <p style="text-align: justify;"> 
                                         L'application va ensuite lire ce qui a été 
                                         envoyé et selon ce qui a été reçu, va faire une requête pour diminuer le score sonore de 
                                         l'utilisateur. Pour la démonstration, l'utilisateur qui est pénalisé est par défaut l'utilisateur n°1 : "Roche Etienne".
@@ -268,11 +268,11 @@
                                     <div class="col-lg-12 col-12">
                                         <h4 class="mb-3">Détecteur de luminosité</h4>
                                     </div>
-                                    <p>
+                                    <p style="text-align: justify;">
                                         L'arduino envoie une valeur comprise entre 0 et 1023 toutes les secondes. Plus une valeur est proche de 0, plus le bruit détecté est élevé. 
                                         À l'inverse, une valeur proche de 1023 correspond à du silence.
                                     </p>
-                                    <p>
+                                    <p style="text-align: justify;">
                                         L'application va récupérer les valeurs envoyées et si la valeur est inférieure à 100 (valeur choisie pour la démo), 
                                         va faire une requête pour diminuer le score luminosité de l'utilisateur. Pour la démonstration, 
                                         l'utilisateur qui est pénalisé est par défaut l'utilisateur n°1 : "Roche Etienne".
@@ -287,7 +287,7 @@
                                     <div class="col-lg-12 col-12">
                                         <h4 class="mb-3">Caméra</h4>
                                     </div>
-                                    <p> 
+                                    <p style="text-align: justify;"> 
                                         À l'aide de la librairie libre OpenCV, un module de reconnaissance d'objets et de personne a été développé. 
                                         Le module est capable de détecter divers objets ainsi que les êtres humains. Pour des raisons de temps, ce module n'est pour 
                                         l'instant pas relié à l'application.
